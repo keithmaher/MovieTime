@@ -1,0 +1,366 @@
+<object-stream>
+  <java.util.Stack serialization="custom">
+    <unserializable-parents/>
+    <vector>
+      <default>
+        <capacityIncrement>0</capacityIncrement>
+        <elementCount>20</elementCount>
+        <elementData>
+          <map>
+            <entry>
+              <long>1</long>
+              <models.users>
+                <id>1</id>
+                <firstName>Leonard</firstName>
+                <lastName>Hernandez</lastName>
+                <age>24</age>
+                <gender>M</gender>
+                <occupation>technician</occupation>
+                <zipcode>85711</zipcode>
+                <movies/>
+              </models.users>
+            </entry>
+            <entry>
+              <long>2</long>
+              <models.users>
+                <id>2</id>
+                <firstName>Melody</firstName>
+                <lastName>Roberson</lastName>
+                <age>53</age>
+                <gender>F</gender>
+                <occupation>other</occupation>
+                <zipcode>94043</zipcode>
+                <movies/>
+              </models.users>
+            </entry>
+            <entry>
+              <long>3</long>
+              <models.users>
+                <id>3</id>
+                <firstName>Gregory</firstName>
+                <lastName>Newton</lastName>
+                <age>23</age>
+                <gender>M</gender>
+                <occupation>writer</occupation>
+                <zipcode>32067</zipcode>
+                <movies/>
+              </models.users>
+            </entry>
+            <entry>
+              <long>4</long>
+              <models.users>
+                <id>4</id>
+                <firstName>Oliver</firstName>
+                <lastName>George</lastName>
+                <age>24</age>
+                <gender>M</gender>
+                <occupation>technician</occupation>
+                <zipcode>43537</zipcode>
+                <movies/>
+              </models.users>
+            </entry>
+            <entry>
+              <string>01-Jan-1995</string>
+              <models.movie>
+                <id>9</id>
+                <title>Dead Man Walking (1995)</title>
+                <videoYear>01-Jan-1995</videoYear>
+                <url>http://us.imdb.com/M/title-exact?Dead%20Man%20Walking%20(1995)</url>
+                <movie/>
+              </models.movie>
+            </entry>
+            <entry>
+              <string>22-Jan-1996</string>
+              <models.movie>
+                <id>10</id>
+                <title>Richard III (1995)</title>
+                <videoYear>22-Jan-1996</videoYear>
+                <url>http://us.imdb.com/M/title-exact?Richard%20III%20(1995)</url>
+                <movie/>
+              </models.movie>
+            </entry>
+          </map>
+          <map>
+            <entry>
+              <string>Dead Man Walking (1995)</string>
+              <models.movie reference="../../../map/entry[5]/models.movie"/>
+            </entry>
+            <entry>
+              <string>Shanghai Triad (Yao a yao yao dao waipo qiao) (1995)</string>
+              <models.movie>
+                <id>6</id>
+                <title>Shanghai Triad (Yao a yao yao dao waipo qiao) (1995)</title>
+                <videoYear>01-Jan-1995</videoYear>
+                <url>http://us.imdb.com/Title?Yao+a+yao+yao+dao+waipo+qiao+(1995)</url>
+                <movie/>
+              </models.movie>
+            </entry>
+            <entry>
+              <string>Oliver</string>
+              <models.users reference="../../../map/entry[4]/models.users"/>
+            </entry>
+            <entry>
+              <string>Gregory</string>
+              <models.users reference="../../../map/entry[3]/models.users"/>
+            </entry>
+            <entry>
+              <string>Richard III (1995)</string>
+              <models.movie reference="../../../map/entry[6]/models.movie"/>
+            </entry>
+            <entry>
+              <string>Toy Story (1995)</string>
+              <models.movie>
+                <id>1</id>
+                <title>Toy Story (1995)</title>
+                <videoYear>01-Jan-1995</videoYear>
+                <url>http://us.imdb.com/M/title-exact?Toy%20Story%20(1995)</url>
+                <movie/>
+              </models.movie>
+            </entry>
+            <entry>
+              <string>Get Shorty (1995)</string>
+              <models.movie>
+                <id>4</id>
+                <title>Get Shorty (1995)</title>
+                <videoYear>01-Jan-1995</videoYear>
+                <url>http://us.imdb.com/M/title-exact?Get%20Shorty%20(1995)</url>
+                <movie/>
+              </models.movie>
+            </entry>
+            <entry>
+              <string>Twelve Monkeys (1995)</string>
+              <models.movie>
+                <id>7</id>
+                <title>Twelve Monkeys (1995)</title>
+                <videoYear>01-Jan-1995</videoYear>
+                <url>http://us.imdb.com/M/title-exact?Twelve%20Monkeys%20(1995)</url>
+                <movie/>
+              </models.movie>
+            </entry>
+            <entry>
+              <string>Babe (1995)</string>
+              <models.movie>
+                <id>8</id>
+                <title>Babe (1995)</title>
+                <videoYear>01-Jan-1995</videoYear>
+                <url>http://us.imdb.com/M/title-exact?Babe%20(1995)</url>
+                <movie/>
+              </models.movie>
+            </entry>
+            <entry>
+              <string>GoldenEye (1995)</string>
+              <models.movie>
+                <id>2</id>
+                <title>GoldenEye (1995)</title>
+                <videoYear>01-Jan-1995</videoYear>
+                <url>http://us.imdb.com/M/title-exact?GoldenEye%20(1995)</url>
+                <movie/>
+              </models.movie>
+            </entry>
+            <entry>
+              <string>Melody</string>
+              <models.users reference="../../../map/entry[2]/models.users"/>
+            </entry>
+            <entry>
+              <string>Four Rooms (1995)</string>
+              <models.movie>
+                <id>3</id>
+                <title>Four Rooms (1995)</title>
+                <videoYear>01-Jan-1995</videoYear>
+                <url>http://us.imdb.com/M/title-exact?Four%20Rooms%20(1995)</url>
+                <movie/>
+              </models.movie>
+            </entry>
+            <entry>
+              <string>Leonard</string>
+              <models.users reference="../../../map/entry/models.users"/>
+            </entry>
+            <entry>
+              <string>Copycat (1995)</string>
+              <models.movie>
+                <id>5</id>
+                <title>Copycat (1995)</title>
+                <videoYear>01-Jan-1995</videoYear>
+                <url>http://us.imdb.com/M/title-exact?Copycat%20(1995)</url>
+                <movie/>
+              </models.movie>
+            </entry>
+          </map>
+          <map>
+            <entry>
+              <long>1</long>
+              <models.movie reference="../../../map[2]/entry[6]/models.movie"/>
+            </entry>
+            <entry>
+              <long>2</long>
+              <models.movie reference="../../../map[2]/entry[10]/models.movie"/>
+            </entry>
+            <entry>
+              <long>3</long>
+              <models.movie reference="../../../map[2]/entry[12]/models.movie"/>
+            </entry>
+            <entry>
+              <long>4</long>
+              <models.movie reference="../../../map[2]/entry[7]/models.movie"/>
+            </entry>
+            <entry>
+              <long>5</long>
+              <models.movie reference="../../../map[2]/entry[14]/models.movie"/>
+            </entry>
+            <entry>
+              <long>6</long>
+              <models.movie reference="../../../map[2]/entry[2]/models.movie"/>
+            </entry>
+            <entry>
+              <long>7</long>
+              <models.movie reference="../../../map[2]/entry[8]/models.movie"/>
+            </entry>
+            <entry>
+              <long>8</long>
+              <models.movie reference="../../../map[2]/entry[9]/models.movie"/>
+            </entry>
+            <entry>
+              <long>9</long>
+              <models.movie reference="../../../map/entry[5]/models.movie"/>
+            </entry>
+            <entry>
+              <long>10</long>
+              <models.movie reference="../../../map/entry[6]/models.movie"/>
+            </entry>
+            <entry>
+              <long>11</long>
+              <models.movie>
+                <id>11</id>
+                <title>Saw</title>
+                <videoYear>1999</videoYear>
+                <url>saw.com</url>
+                <movie/>
+              </models.movie>
+            </entry>
+          </map>
+          <map>
+            <entry>
+              <string>Jenna</string>
+              <models.users>
+                <id>5</id>
+                <firstName>Jenna</firstName>
+                <lastName>Parker</lastName>
+                <age>33</age>
+                <gender>F</gender>
+                <occupation>other</occupation>
+                <zipcode>15213</zipcode>
+                <movies/>
+              </models.users>
+            </entry>
+            <entry>
+              <string>Oliver</string>
+              <models.users>
+                <id>4</id>
+                <firstName>Oliver</firstName>
+                <lastName>George</lastName>
+                <age>24</age>
+                <gender>M</gender>
+                <occupation>technician</occupation>
+                <zipcode>43537</zipcode>
+                <movies/>
+              </models.users>
+            </entry>
+            <entry>
+              <string>Nimah</string>
+              <models.users>
+                <id>6</id>
+                <firstName>Nimah</firstName>
+                <lastName>Maher</lastName>
+                <age>28</age>
+                <gender>F</gender>
+                <occupation>Student</occupation>
+                <zipcode>qq1123</zipcode>
+                <movies/>
+              </models.users>
+            </entry>
+            <entry>
+              <string>Melody</string>
+              <models.users>
+                <id>2</id>
+                <firstName>Melody</firstName>
+                <lastName>Roberson</lastName>
+                <age>53</age>
+                <gender>F</gender>
+                <occupation>other</occupation>
+                <zipcode>94043</zipcode>
+                <movies/>
+              </models.users>
+            </entry>
+            <entry>
+              <string>Leonard</string>
+              <models.users>
+                <id>1</id>
+                <firstName>Leonard</firstName>
+                <lastName>Hernandez</lastName>
+                <age>24</age>
+                <gender>M</gender>
+                <occupation>technician</occupation>
+                <zipcode>85711</zipcode>
+                <movies/>
+              </models.users>
+            </entry>
+            <entry>
+              <string>Gregory</string>
+              <models.users>
+                <id>3</id>
+                <firstName>Gregory</firstName>
+                <lastName>Newton</lastName>
+                <age>23</age>
+                <gender>M</gender>
+                <occupation>writer</occupation>
+                <zipcode>32067</zipcode>
+                <movies/>
+              </models.users>
+            </entry>
+          </map>
+          <map>
+            <entry>
+              <long>1</long>
+              <models.users reference="../../../map[4]/entry[5]/models.users"/>
+            </entry>
+            <entry>
+              <long>2</long>
+              <models.users reference="../../../map[4]/entry[4]/models.users"/>
+            </entry>
+            <entry>
+              <long>3</long>
+              <models.users reference="../../../map[4]/entry[6]/models.users"/>
+            </entry>
+            <entry>
+              <long>4</long>
+              <models.users reference="../../../map[4]/entry[2]/models.users"/>
+            </entry>
+            <entry>
+              <long>5</long>
+              <models.users reference="../../../map[4]/entry/models.users"/>
+            </entry>
+            <entry>
+              <long>6</long>
+              <models.users reference="../../../map[4]/entry[3]/models.users"/>
+            </entry>
+          </map>
+          <map reference="../map"/>
+          <map reference="../map[2]"/>
+          <map reference="../map[3]"/>
+          <map reference="../map[4]"/>
+          <map reference="../map[5]"/>
+          <map reference="../map[5]"/>
+          <map reference="../map[4]"/>
+          <map reference="../map[3]"/>
+          <map reference="../map[2]"/>
+          <map reference="../map"/>
+          <map reference="../map[5]"/>
+          <map reference="../map[4]"/>
+          <map reference="../map[3]"/>
+          <map reference="../map[2]"/>
+          <map reference="../map"/>
+        </elementData>
+      </default>
+    </vector>
+  </java.util.Stack>
+</object-stream>
