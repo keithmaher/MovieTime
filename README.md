@@ -12,7 +12,7 @@ To use this project please download it then import the project to you eclipse wo
 
 run the system in eclipse and follow the instructions in the menu system.
 
-                          1. List All User Details
+                                1. List All User Details
 	                        2. Add User
 	                        3. Find User By Name
 	                        4. Delete User By Name
