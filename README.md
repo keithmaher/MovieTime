@@ -10,7 +10,7 @@ To use this project please download it then import the project to you eclipse wo
 
 ## Running the Program
 
-run the system in eclipse and follow the instructions in the menu system.
+Run the system in eclipse and follow the instructions in the menu system.
 
 				1. List All User Details
 	                        2. Add User
