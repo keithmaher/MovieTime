@@ -1,8 +1,8 @@
 # MovieTime
 
-The first part of the assignment was to make a movie recommender like the one netflix.
-We had to read in from a .dad file then save that file as xml format. 
-We then had to save new data to that xml file.
+The first part of the assignment was to make a movie recommender like the from netflix and Amazon Prime.
+We had to read in from a .dat file then save that file in xml format on the program. 
+We then had to save new data to that xml file like adding new users and deleting.
 
 
 ## Getting Started
@@ -12,7 +12,7 @@ To use this project please download it then import the project to you eclipse wo
 
 run the system in eclipse and follow the instructions in the menu system.
 
-                                1. List All User Details
+				1. List All User Details
 	                        2. Add User
 	                        3. Find User By Name
 	                        4. Delete User By Name
