@@ -5,28 +5,20 @@ import models.ratings;
 
 public class Fixtures {
 	
-	  public static users[] users =
-	  {
-	    new users ("Keith","mAHER","24","m","uSELESS","e91w594"),
-	    new users ("Keith","mAHER","24","m","uSELESS","e91w594"),
-	    new users ("Keith","mAHER","24","m","uSELESS","e91w594"),
-	    new users ("Keith","mAHER","24","m","uSELESS","e91w594")
-	  };
+	  public static users [] users = { 
+			new users("Keith", "Maher", "27", "M", "Student", "qqww2233"),
+			new users("Niamh", "Maher", "28", "F", "Student", "qqww2233"),
+			new users("Eoin", "Kelly", "32", "M", "Student", "qqww2233") 
+			};
 
-		public static movie[] movie = 
-		{ 
-			new movie("Gonnies", "1989", "Gonnies.com"),
-			new movie("Twilight", "2008", "Twilight.com"), 
-			new movie("Shrek", "2001", "Shrek.org"),
-			new movie("Robocop", "1992", "Robocop.net")
-		
-		};
-		
-		public static ratings[] rating = 
-			{ 
-			new ratings(1L, 2L, 3),
-			new ratings(2L, 3L, 4),
-			new ratings(3L, 4L, 5),
-			new ratings(4L, 5L, 6)
-		};
+	public static movie [] movies = { 
+			new movie("Saw", "2017", "Saw.com"),
+			new movie("Blade Runner", "2017", "Saw.com"), 
+			new movie("Thor", "2017", "Thor.com") 
+			};
+
+	public static ratings [] rating = { 
+			new ratings(1L, 4L, 3), 
+			new ratings(2L, 1L, 8) 
+			};
 }
